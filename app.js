@@ -28,4 +28,4 @@ function postJoke() {
 
 postJoke();
 
-// setInterval(postJoke, 1000 * 60 * 60);
+setInterval(postJoke, 1000 * 60 * 60);
