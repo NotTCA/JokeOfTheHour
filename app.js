@@ -20,6 +20,7 @@ function postJoke() {
     .then(async (data) => {
       try {
         await client.v2.tweet(data.joke);
+        console.log("posted new tweet");
       } catch (err) {
         console.error(err);
       }
